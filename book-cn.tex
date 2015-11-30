@@ -118,12 +118,12 @@
 
 \title{\LARGE \bf
 Gameduino 2\\
-入门指南，编程参考与设计实例
+入门指南与设计实例
 }
 
 \author{作者：James Bowman (美) \\
 	{\tt\small jamesb@excamera.com} \\
-  Excamera Labs\\
+  Excamera Labs, USA\\
    \\
    \\
   译者：戴晓天\footnote{云飞机器人实验室，\url{http://www.yfworld.com}，翻译Chap.1-2 \& 13-16，校稿}
@@ -133,7 +133,7 @@ Gameduino 2\\
   \\
   \\
   \\
-  ( Version 1.0 )
+  ( Version 1.1 )
   \\
   \\  
 }
@@ -223,17 +223,17 @@ Bowman, James.\\
 \begin{enumerate}
 
 \item
-从 \url{http://gameduino.com/code} 下载 \gdtwo 的程序库 \mach{Gameduino2.zip} 并且将其安装至Arduino IDE中。
-如果不知道如何安装Arduino第三方程序库，可以在 \url{http://arduino.cc/en/Guide/Libraries} 找到详细步骤。
+首先从 \url{http://gameduino.com/code} 下载 \gdtwo 的软件支持库 \mach{Gameduino2.zip}，并且将其安装至Arduino IDE中。
+在Arduino下安装第三方程序库的详细步骤可以在 \url{http://arduino.cc/en/Guide/Libraries} 找到。
 
 \item
-将 \gdtwo 连接至Arduino的插槽中，连接时确认所有的引脚都正确对齐。
+将 \gdtwo 连接至Arduino的插槽中，连接过程中确认所有引脚都已正确对齐。
 
 \item
-将Arduino插入电脑USB端口为其通电。因为当前还没有程序载入到Arduino中，此时 \gdtwo 的屏幕上不会有任何内容显示。
+将Arduino通过USB电缆连接至电脑USB端口。\gdtwo 在出厂时没有加载任何程序，所以此时 \gdtwo 的屏幕上不会有任何内容显示。
 
 \item
-启动Arduino IDE并且载入一个Gameduino 2的示例程序，如 \\
+启动Arduino IDE，载入\gdtwo 的Hello World程序:\\
 \begin{small}
 \mach{File} $\triangleright$
 \mach{Sketchbook} $\triangleright$
@@ -248,13 +248,13 @@ Bowman, James.\\
 \end{center}
 
 \item
-点击下载按钮将程序编译并载入到Arduino中，等待一段时间后， \gdtwo 将会启动并开始绘制载入的程序。
+点击下载按钮，将该程序编译并载入到Arduino中。该过程结束后， \gdtwo 会重新启动并在屏幕上绘制出“Hello,world!”。
 
 \item
-很多示例程序需要从microSD中读取数据。为了能正常运行这些程序，需要准备一张格式化后的microSD卡，并将 \mach{Gameduino2sd.zip} 压缩包中的文件拷入到SD卡中 (该文件可从 \url{http://gameduino.com/code} 上下载)。
+很多示例程序需要从microSD中读取数据。为了能正常运行这些程序，你需要准备一张已经格式化的microSD卡，并将 \mach{Gameduino2sd.zip} 压缩包中的文件拷入到SD卡中 (该文件可从 \url{http://gameduino.com/code} 上下载)。安装完成后，再将SD卡插入\gdtwo 的microSD插槽中。
 
 \item
-试着运行其他的例程，劲情享受!
+试着探索其他提供的例程，感受\gdtwo 的潜力和魅力!
 
 \end{enumerate}
 
